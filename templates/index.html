@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Hello</h1>
+    <form action="/" method="POST">
+        <label for="task">Enter a task</label>
+        <input type="text" name="task" id="task_input">
+        <input type="submit">
+    </form>
+{% endblock %}
